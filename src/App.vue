@@ -14,12 +14,18 @@
             <Reassignment />
           </div>
         </section>
+        <div charts class="flex justify-between">
+          <ApexStats class="w-1/2" />
+          <OpexStats class="w-1/2" />
+        </div>
       </section>
     </section>
   </div>
 </template>
 
 <script>
+import ApexStats from "./components/apexStatistics";
+import OpexStats from "./components/opexStatistics";
 import SideNav from "@/components/sideNav";
 import TopNav from "@/components/topNav";
 import TotalBudgets from "@/components/totalBugets";
@@ -29,12 +35,20 @@ export default {
     SideNav,
     TopNav,
     TotalBudgets,
-    Reassignment
+    Reassignment,
+    ApexStats,
+    OpexStats
   }
 };
 </script>
 
 <style>
+[charts] {
+  margin: -10px;
+}
+[charts] > div{
+  padding: 10px;
+}
 /* body{
   max-width: 1440px;
   margin: 0 auto;
@@ -43,13 +57,14 @@ export default {
   padding: 40px 44px;
 }
 [dashboard-body] > section {
-  margin: -26px;
+  margin: -12px;
 }
 [dashboard-body] > section [total-budgets],
 [dashboard-body] > section [reassignments] {
-  padding: 26px;
+  padding: 12px;
 }
 header {
+  margin-bottom: 14px;
   font-family: France;
   font-size: 22px;
   font-weight: bold;

@@ -2,7 +2,7 @@
   <div>
     <div v-for="(status, i) in budgets" :key="i" class="reassignment">
       <div reassignment-title>
-        <img :src="status.image" />
+        <img :src="status.image" width="32px" class="inline mr-2"/>
         {{ status.title }}
       </div>
       <div class="text-center" reassignment-value>{{ status.value }}</div>
@@ -18,17 +18,17 @@ export default {
         {
           title: "Pending Budget Reassignment Status",
           value: 200,
-          image: ""
+          image: "images/assignment.png"
         },
         {
           title: "Approved Budget Reassignment Status",
           value: 373,
-          image: ""
+          image: "images/assignment2.png"
         },
         {
           title: "Declined Budget Reassignment Status",
           value: 372,
-          image: ""
+          image: "images/assignment3.png"
         }
       ]
     };

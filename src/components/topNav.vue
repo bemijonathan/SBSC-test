@@ -19,7 +19,7 @@ export default {};
 
 <style>
 .top-nav {
-  padding: 24px 41px;
+  padding: 14px 41px;
   box-shadow: 0 7px 64px 0 rgba(19, 36, 78, 0.07);
 }
 .profile-details p {
