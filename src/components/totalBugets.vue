@@ -3,7 +3,7 @@
     <div CAPPEX>
       <div class="flex items-center justify-between">
         <div cappex-title>
-          <img src="images/assignment2.png" class="inline mr-2" width="32" />
+          <img src="images/image.png" class="inline mr-2" width="32" />
           Total Annual CAPEX Budget
           <button class="outline-none price">N 50,000,000</button>
         </div>
@@ -207,7 +207,7 @@ export default {
   right: 0;
   left: 0;
   margin: auto;
-  font-family: SourceSansPro;
+  font-family: SourceSansPro !important;
   font-size: 18px;
   /* font-weight: 600; */
   font-stretch: normal;

@@ -5,7 +5,10 @@
     <section class="flex-1">
       <TopNav />
       <section dashboard-body>
-        <header>Dashboard</header>
+        <div class="flex justify-between items-center">
+           <header>Dashboard</header>
+           <div class="date">20 Dec 2019, Friday</div>
+        </div>
         <section class="flex">
           <div total-budgets class="flex-1">
             <TotalBudgets />
@@ -43,6 +46,23 @@ export default {
 </script>
 
 <style>
+
+@font-face {
+  font-family: 'SourceSansPro';
+  src: URL('/fonts/SourceSansPro-Regular.ttf') format('truetype');
+}
+
+.date{
+   font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #000000;
+}
+
 [charts] {
   margin: -10px;
 }

@@ -57,6 +57,7 @@ export default {
   );
 }
 [side-bar] li {
+  cursor: pointer;
   margin: 5px 16px;
   padding: 8px 16px;
   height: 36px;
