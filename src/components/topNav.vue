@@ -9,6 +9,9 @@
         <p>Bidemi Yusuf</p>
         <p>Executive</p>
       </div>
+      <div class="ml-2">
+        ▼
+      </div>
     </div>
   </div>
 </template>
