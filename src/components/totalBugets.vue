@@ -10,7 +10,7 @@
         <div>
           <button class="dropdown">
             Annual
-            <span>></span>
+            <span>⌄</span>
           </button>
         </div>
       </div>
@@ -67,7 +67,7 @@
         <div>
           <button class="dropdown">
             Annual
-            <span>></span>
+            <span>⌄</span>
           </button>
         </div>
       </div>
@@ -191,11 +191,11 @@ export default {
 
 <style>
 .dropdown span {
-  transform: rotate(90deg);
+  /* transform: rotate(90deg); */
   position: absolute;
   font-weight: bold;
   font-size: 17px;
-  top: 0;
+  top: -1.5px;
   right: 4px;
 }
 [chart-holders] {

@@ -52,6 +52,11 @@ export default {
   src: URL('/fonts/SourceSansPro-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'OpenSans';
+  src: URL('/fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
 .date{
    font-family: SourceSansPro;
   font-size: 14px;
